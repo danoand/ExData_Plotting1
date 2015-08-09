@@ -12,7 +12,7 @@
 # Read the raw data into a data frame
 myFrame <- read.table(file="household_power_consumption.txt",header=TRUE,sep=";",na.strings="?", as.is=c(TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE))
 
-# Subset the data to observations for
+# Subset the data to observations on Feb 1 2007 and Feb 2 2007
 myFrame.sub <- myFrame[(myFrame$Date == "1/2/2007" | myFrame$Date == "2/2/2007"),]
 
 # Combine the date and time columns into a new column
