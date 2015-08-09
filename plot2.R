@@ -8,7 +8,7 @@
 #  3. Render plot of household global minute-averaged active power by time
 ####
 
-# Read the massaged data to be plotted
+# Read the transformed massaged data (produced by `plot0_reader.R`) to be plotted
 source("dumpdata.R")
 
 # Configure a png device

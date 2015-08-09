@@ -8,7 +8,7 @@
 #  3. Generate the plot and close the graphics device
 ####
 
-# Read the massaged data to be plotted
+# Read the transformed massaged data (produced by `plot0_reader.R`) to be plotted
 source("dumpdata.R")
 
 # Configure a png device

@@ -15,7 +15,7 @@ source("dumpdata.R")
 # Configure a png device
 png(filename="plot4.png", bg="transparent", width=480, height=480)
 
-# Configure the layout of the multi-plot rendering (image)
+# Configure the layout of the multi-plot rendering
 par(mfrow = c(2, 2))
 
 # Generate plot #1 - global minute-averaged active power over time

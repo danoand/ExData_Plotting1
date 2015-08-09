@@ -10,7 +10,7 @@
 #  5. Annotate the plot with a legend
 ####
 
-# Read the massaged data to be plotted
+# Read the transformed massaged data (produced by `plot0_reader.R`) to be plotted
 source("dumpdata.R")
 
 # Configure a png device

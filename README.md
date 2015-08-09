@@ -24,10 +24,10 @@ NOTE: There is no need to execute Step 2A & 2B unless desired.  Each plotting sc
 
 ##### 3) Execute each plotting script to generate their respective plots
 
-`Rscript plot1.R`
-`Rscript plot2.R`
-`Rscript plot3.R`
-`Rscript plot4.R`
+* `Rscript plot1.R`
+* `Rscript plot2.R`
+* `Rscript plot3.R`
+* `Rscript plot4.R`
 
 ### Plot 1
 
