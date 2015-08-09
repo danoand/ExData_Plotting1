@@ -1,9 +1,9 @@
 ##############################################################################################
 # Description:
-# plot1.r plots a histogram of Global Active Power
+# plot1.R plots a histogram of Global Active Power
 #
 # Script Process:
-#  1. Load the massaged data to be plotted
+#  1. Load the massaged data from 'dumpdata.R' (generated using plot0_reader.R) to be plotted
 #  2. Configure a png device
 #  3. Generate the plot and close the graphics device
 ####

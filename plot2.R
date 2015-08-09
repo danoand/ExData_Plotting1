@@ -1,9 +1,11 @@
 ##############################################################################################
 # Description:
-# plot2.r plots a histogram of Global Active Power
+# plot2.R plots household global minute-averaged active power over time
 #
 # Script Process:
-#  1. Load the massaged data to be plotted
+#  1. Load the massaged data from 'dumpdata.R' (generated using plot0_reader.R) to be plotted
+#  2. Configure the png graphics device
+#  3. Render plot of household global minute-averaged active power by time
 ####
 
 # Read the massaged data to be plotted
