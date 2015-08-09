@@ -4,10 +4,12 @@
 #
 # Script Process:
 #  1. Load the massaged data from 'dumpdata.R' (generated using plot0_reader.R) to be plotted
-
+#  2. Configure the png graphics device and a multi-plot rendering
+#  3. Generate the plots to be included in the rendering
+#  4. Close the graphics device
 ####
 
-# Read the massaged data to be plotted
+# Read the transformed massaged data (produced by `plot0_reader.R`) to be plotted
 source("dumpdata.R")
 
 # Configure a png device
