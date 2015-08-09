@@ -25,5 +25,5 @@ myFrame.sub$Date_Time <- gsub('2/2/2007', '2007-02-02', myFrame.sub$Date_Time)
 # Convert the date/time represented as a character format to an R data/time object
 myFrame.sub$Date_Time <- strptime(myFrame.sub$Date_Time, "%Y-%m-%d %H:%M:%S")
 
-# Dump the massaged dataframe for by individual plotting scripts
+# Dump the massaged dataframe for use by individual plotting scripts
 dump("myFrame.sub")
